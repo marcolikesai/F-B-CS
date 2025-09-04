@@ -1,0 +1,2475 @@
+(node:10723) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:10723) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+(node:10723) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.js
+  Line 11:8:  'Methods' is defined but never used  no-unused-vars
+
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.js
+  Line 11:8:  'Methods' is defined but never used  no-unused-vars
+
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/RiskAssessment.js
+  Line 107:7:  'Score' is assigned a value but never used      no-unused-vars
+  Line 119:7:  'riskScore' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/RiskAssessment.js
+  Line 107:7:  'Score' is assigned a value but never used      no-unused-vars
+  Line 119:7:  'riskScore' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Dashboard.js
+Syntax error: Unexpected token, expected "," (183:4) (183:4)
+WARNING in [eslint] 
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Dashboard.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/marcomontenegro/dataanalysis/frontend/src/pages/Dashboard.js: Unexpected token, expected "," (183:4)
+
+  181 |       text: `Average of ${overview?.key_metrics?.transactions_per_attendee || 0} transactions per attendee across all events`
+  182 |     }
+> 183 |     {
+      |     ^
+  184 |       icon: '💰',
+  185 |       text: `Average revenue of $${overview?.key_metrics?.sales_per_attendee || 0} per attendee`
+  186 |     },
+    at constructor (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+    at FlowParserMixin.raise (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+    at FlowParserMixin.unexpected (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6650:16)
+    at FlowParserMixin.expect (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6930:12)
+    at FlowParserMixin.parseExprList (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12147:14)
+    at FlowParserMixin.parseArrayLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12063:26)
+    at FlowParserMixin.parseArrayLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3264:24)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+    at FlowParserMixin.parseUpdate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+    at FlowParserMixin.parseExprOps (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3582:18)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:39
+    at FlowParserMixin.allowInAnd (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12427:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:17)
+    at FlowParserMixin.parseVar (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13389:91)
+    at FlowParserMixin.parseVarStatement (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13235:10)
+    at FlowParserMixin.parseStatementContent (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12856:23)
+    at FlowParserMixin.parseStatementLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12772:17)
+    at FlowParserMixin.parseStatementLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2949:24)
+    at FlowParserMixin.parseStatementListItem (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12752:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13321:61)
+    at FlowParserMixin.parseBlockBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13314:10)
+    at FlowParserMixin.parseBlock (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13302:10)
+    at FlowParserMixin.parseFunctionBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12106:24)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2923:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3099:16)
+    at FlowParserMixin.parseFunctionBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2923:12)
+    at FlowParserMixin.parseArrowExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12081:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11691:12)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3624:18)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11331:23)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+    at FlowParserMixin.parseUpdate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+    at FlowParserMixin.parseExprOps (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3582:18)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:39
+    at FlowParserMixin.allowInAnd (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12427:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:17)
+    at FlowParserMixin.parseVar (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13389:91)
+
+ERROR in [eslint] 
+src/pages/Dashboard.js
+  Line 183:4:  Parsing error: Unexpected token, expected "," (183:4)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Dashboard.js
+Syntax error: Unexpected token, expected "," (183:4) (183:4)
+WARNING in [eslint] 
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Dashboard.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/marcomontenegro/dataanalysis/frontend/src/pages/Dashboard.js: Unexpected token, expected "," (183:4)
+
+  181 |       text: `Average of ${overview?.key_metrics?.transactions_per_attendee || 0} transactions per attendee across all events`
+  182 |     }
+> 183 |     {
+      |     ^
+  184 |       icon: '$',
+  185 |       text: `Average revenue of $${overview?.key_metrics?.sales_per_attendee || 0} per attendee`
+  186 |     },
+    at constructor (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+    at FlowParserMixin.raise (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+    at FlowParserMixin.unexpected (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6650:16)
+    at FlowParserMixin.expect (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6930:12)
+    at FlowParserMixin.parseExprList (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12147:14)
+    at FlowParserMixin.parseArrayLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12063:26)
+    at FlowParserMixin.parseArrayLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3264:24)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+    at FlowParserMixin.parseUpdate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+    at FlowParserMixin.parseExprOps (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3582:18)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:39
+    at FlowParserMixin.allowInAnd (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12427:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:17)
+    at FlowParserMixin.parseVar (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13389:91)
+    at FlowParserMixin.parseVarStatement (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13235:10)
+    at FlowParserMixin.parseStatementContent (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12856:23)
+    at FlowParserMixin.parseStatementLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12772:17)
+    at FlowParserMixin.parseStatementLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2949:24)
+    at FlowParserMixin.parseStatementListItem (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12752:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13321:61)
+    at FlowParserMixin.parseBlockBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13314:10)
+    at FlowParserMixin.parseBlock (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13302:10)
+    at FlowParserMixin.parseFunctionBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12106:24)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2923:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3099:16)
+    at FlowParserMixin.parseFunctionBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2923:12)
+    at FlowParserMixin.parseArrowExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12081:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11691:12)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3624:18)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11331:23)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+    at FlowParserMixin.parseUpdate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+    at FlowParserMixin.parseExprOps (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3582:18)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:39
+    at FlowParserMixin.allowInAnd (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12427:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:17)
+    at FlowParserMixin.parseVar (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13389:91)
+
+ERROR in [eslint] 
+src/pages/Dashboard.js
+  Line 183:4:  Parsing error: Unexpected token, expected "," (183:4)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Dashboard.js
+Syntax error: Unexpected token, expected "," (183:4) (183:4)
+WARNING in [eslint] 
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Dashboard.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/marcomontenegro/dataanalysis/frontend/src/pages/Dashboard.js: Unexpected token, expected "," (183:4)
+
+  181 |       text: `Average of ${overview?.key_metrics?.transactions_per_attendee || 0} transactions per attendee across all events`
+  182 |     }
+> 183 |     {
+      |     ^
+  184 |       icon: '$',
+  185 |       text: `Average revenue of $${overview?.key_metrics?.sales_per_attendee || 0} per attendee`
+  186 |     },
+    at constructor (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+    at FlowParserMixin.raise (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+    at FlowParserMixin.unexpected (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6650:16)
+    at FlowParserMixin.expect (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6930:12)
+    at FlowParserMixin.parseExprList (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12147:14)
+    at FlowParserMixin.parseArrayLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12063:26)
+    at FlowParserMixin.parseArrayLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3264:24)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+    at FlowParserMixin.parseUpdate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+    at FlowParserMixin.parseExprOps (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3582:18)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:39
+    at FlowParserMixin.allowInAnd (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12427:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:17)
+    at FlowParserMixin.parseVar (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13389:91)
+    at FlowParserMixin.parseVarStatement (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13235:10)
+    at FlowParserMixin.parseStatementContent (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12856:23)
+    at FlowParserMixin.parseStatementLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12772:17)
+    at FlowParserMixin.parseStatementLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2949:24)
+    at FlowParserMixin.parseStatementListItem (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12752:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13321:61)
+    at FlowParserMixin.parseBlockBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13314:10)
+    at FlowParserMixin.parseBlock (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13302:10)
+    at FlowParserMixin.parseFunctionBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12106:24)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2923:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3099:16)
+    at FlowParserMixin.parseFunctionBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2923:12)
+    at FlowParserMixin.parseArrowExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12081:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11691:12)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3624:18)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11331:23)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+    at FlowParserMixin.parseUpdate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+    at FlowParserMixin.parseExprOps (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3582:18)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:39
+    at FlowParserMixin.allowInAnd (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12427:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:17)
+    at FlowParserMixin.parseVar (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13389:91)
+
+ERROR in [eslint] 
+src/pages/Dashboard.js
+  Line 183:4:  Parsing error: Unexpected token, expected "," (183:4)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Dashboard.js
+Syntax error: Unexpected token, expected "," (183:4) (183:4)
+WARNING in [eslint] 
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Dashboard.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/marcomontenegro/dataanalysis/frontend/src/pages/Dashboard.js: Unexpected token, expected "," (183:4)
+
+  181 |       text: `Average of ${overview?.key_metrics?.transactions_per_attendee || 0} transactions per attendee across all events`
+  182 |     }
+> 183 |     {
+      |     ^
+  184 |       icon: '$',
+  185 |       text: `Average revenue of $${overview?.key_metrics?.sales_per_attendee || 0} per attendee`
+  186 |     },
+    at constructor (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+    at FlowParserMixin.raise (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+    at FlowParserMixin.unexpected (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6650:16)
+    at FlowParserMixin.expect (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6930:12)
+    at FlowParserMixin.parseExprList (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12147:14)
+    at FlowParserMixin.parseArrayLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12063:26)
+    at FlowParserMixin.parseArrayLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3264:24)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+    at FlowParserMixin.parseUpdate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+    at FlowParserMixin.parseExprOps (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3582:18)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:39
+    at FlowParserMixin.allowInAnd (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12427:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:17)
+    at FlowParserMixin.parseVar (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13389:91)
+    at FlowParserMixin.parseVarStatement (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13235:10)
+    at FlowParserMixin.parseStatementContent (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12856:23)
+    at FlowParserMixin.parseStatementLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12772:17)
+    at FlowParserMixin.parseStatementLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2949:24)
+    at FlowParserMixin.parseStatementListItem (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12752:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13321:61)
+    at FlowParserMixin.parseBlockBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13314:10)
+    at FlowParserMixin.parseBlock (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13302:10)
+    at FlowParserMixin.parseFunctionBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12106:24)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2923:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3099:16)
+    at FlowParserMixin.parseFunctionBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2923:12)
+    at FlowParserMixin.parseArrowExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12081:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11691:12)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3624:18)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11331:23)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+    at FlowParserMixin.parseUpdate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+    at FlowParserMixin.parseExprOps (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3582:18)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:39
+    at FlowParserMixin.allowInAnd (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12427:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:17)
+    at FlowParserMixin.parseVar (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13389:91)
+
+ERROR in [eslint] 
+src/pages/Dashboard.js
+  Line 183:4:  Parsing error: Unexpected token, expected "," (183:4)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Dashboard.js
+Syntax error: Unexpected token, expected "," (183:4) (183:4)
+WARNING in [eslint] 
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Dashboard.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/marcomontenegro/dataanalysis/frontend/src/pages/Dashboard.js: Unexpected token, expected "," (183:4)
+
+  181 |       text: `Average of ${overview?.key_metrics?.transactions_per_attendee || 0} transactions per attendee across all events`
+  182 |     }
+> 183 |     {
+      |     ^
+  184 |       icon: '$',
+  185 |       text: `Average revenue of $${overview?.key_metrics?.sales_per_attendee || 0} per attendee`
+  186 |     },
+    at constructor (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+    at FlowParserMixin.raise (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+    at FlowParserMixin.unexpected (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6650:16)
+    at FlowParserMixin.expect (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:6930:12)
+    at FlowParserMixin.parseExprList (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12147:14)
+    at FlowParserMixin.parseArrayLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12063:26)
+    at FlowParserMixin.parseArrayLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3264:24)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+    at FlowParserMixin.parseUpdate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+    at FlowParserMixin.parseExprOps (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3582:18)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:39
+    at FlowParserMixin.allowInAnd (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12427:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:17)
+    at FlowParserMixin.parseVar (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13389:91)
+    at FlowParserMixin.parseVarStatement (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13235:10)
+    at FlowParserMixin.parseStatementContent (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12856:23)
+    at FlowParserMixin.parseStatementLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12772:17)
+    at FlowParserMixin.parseStatementLike (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2949:24)
+    at FlowParserMixin.parseStatementListItem (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12752:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13321:61)
+    at FlowParserMixin.parseBlockBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13314:10)
+    at FlowParserMixin.parseBlock (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13302:10)
+    at FlowParserMixin.parseFunctionBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12106:24)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2923:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3099:16)
+    at FlowParserMixin.parseFunctionBody (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:2923:12)
+    at FlowParserMixin.parseArrowExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12081:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11691:12)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3624:18)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11331:23)
+    at FlowParserMixin.parseExprAtom (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+    at FlowParserMixin.parseUpdate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+    at FlowParserMixin.parseExprOps (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:3582:18)
+    at /Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:39
+    at FlowParserMixin.allowInAnd (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:12427:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:10800:17)
+    at FlowParserMixin.parseVar (/Users/marcomontenegro/dataanalysis/frontend/node_modules/@babel/parser/lib/index.js:13389:91)
+
+ERROR in [eslint] 
+src/pages/Dashboard.js
+  Line 183:4:  Parsing error: Unexpected token, expected "," (183:4)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used         no-unused-vars
+  Line 3:20:   'Pie' is defined but never used              no-unused-vars
+  Line 3:25:   'Cell' is defined but never used             no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Dashboard.js
+  Line 3:101:  'PieChart' is defined but never used         no-unused-vars
+  Line 3:111:  'Pie' is defined but never used              no-unused-vars
+  Line 3:116:  'Cell' is defined but never used             no-unused-vars
+  Line 103:7:  'COLORS' is assigned a value but never used  no-unused-vars
+
+src/pages/Methods.js
+  Line 21:7:  'PageSubtitle' is assigned a value but never used  no-unused-vars
+  Line 31:7:  'SectionTitle' is assigned a value but never used  no-unused-vars
+
+src/pages/Predictions.js
+  Line 3:10:   'PieChart' is defined but never used                 no-unused-vars
+  Line 3:20:   'Pie' is defined but never used                      no-unused-vars
+  Line 3:25:   'Cell' is defined but never used                     no-unused-vars
+  Line 151:7:  'COLORS' is assigned a value but never used          no-unused-vars
+  Line 237:9:  'nbaAvgTrans' is assigned a value but never used     no-unused-vars
+  Line 241:9:  'sundayAvgTrans' is assigned a value but never used  no-unused-vars
+
+src/pages/StaffingRecommendations.js
+  Line 90:7:  'StandType' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning

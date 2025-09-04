@@ -1,0 +1,9 @@
+Starting Silver Arena Analytics API (Fast Mode)...
+Loading cached results...
+Cache loaded from /Users/marcomontenegro/dataanalysis/backend/analysis_cache.json
+Cache loaded successfully (generated: 2025-09-04T00:13:54.932761)
+Starting server on http://localhost:5001
+ * Serving Flask app 'app_fast'
+ * Debug mode: on
+Address already in use
+Port 5001 is in use by another program. Either identify and stop that program, or start the server with a different port.

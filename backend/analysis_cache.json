@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-04T03:16:05.295677",
+  "generated_at": "2025-09-04T03:54:08.517541",
   "overview": {
     "total_events_analyzed": 129,
     "date_range": {
@@ -210,7 +210,7 @@
       "transactions": 4837,
       "net_sales": 129493.81,
       "units": 11550,
-      "pos_terminals": 109
+      "pos_terminals": 70
     },
     "derived_metrics": {
       "trans_per_attendee": 0.484,

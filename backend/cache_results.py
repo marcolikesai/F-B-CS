@@ -219,6 +219,9 @@ def generate_cache():
     cache['staffing_recommendations']['total_pos_needed'] = total_pos
     cache['staffing_recommendations']['total_cashiers_needed'] = total_pos
     
+    # Sync POS terminals between predictions and staffing for consistency
+    cache['march5_predictions']['predictions']['pos_terminals'] = total_pos
+    
     print("📊 Processing historical data...")
     # Historical data
     for _, row in analyzer.combined_data.iterrows():

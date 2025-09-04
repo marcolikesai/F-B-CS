@@ -3,17 +3,16 @@ import styled from 'styled-components';
 
 const HeaderContainer = styled.header`
   background: var(--bg-primary);
-  border-bottom: 1px solid var(--color-gray-200);
-  padding: 0 var(--space-xl);
+  border-bottom: var(--border-width) solid var(--border-color);
+  padding: 0 var(--space-2xl);
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-xs);
   position: sticky;
   top: 0;
   z-index: 100;
-  backdrop-filter: blur(8px);
 
   @media (max-width: 768px) {
     padding: 0 var(--space-lg);
@@ -30,15 +29,15 @@ const TitleSection = styled.div`
 const LogoIcon = styled.div`
   width: 48px;
   height: 48px;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
-  border-radius: var(--radius-lg);
+  background: var(--color-primary);
+  border-radius: var(--radius-xl);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
   color: white;
-  font-weight: 700;
-  box-shadow: var(--shadow-md);
+  font-weight: 800;
+  box-shadow: var(--shadow-sm);
 `;
 
 const TitleGroup = styled.div`
@@ -48,13 +47,11 @@ const TitleGroup = styled.div`
 
 const Title = styled.h1`
   font-size: 1.75rem;
-  font-weight: 700;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-weight: 800;
+  color: var(--text-primary);
   margin: 0;
-  line-height: 1.2;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
 
   @media (max-width: 768px) {
     font-size: 1.5rem;
@@ -79,21 +76,21 @@ const StatusSection = styled.div`
 `;
 
 const StatusBadge = styled.div`
-  background: linear-gradient(135deg, var(--color-success), #059669);
+  background: var(--color-accent);
   color: white;
   padding: var(--space-sm) var(--space-lg);
-  border-radius: var(--radius-xl);
+  border-radius: var(--radius-full);
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 600;
   display: flex;
   align-items: center;
   gap: var(--space-sm);
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-xs);
   transition: all 0.2s ease;
 
   &:hover {
     transform: translateY(-1px);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-sm);
   }
 
   @media (max-width: 768px) {
@@ -111,18 +108,18 @@ const StatusDot = styled.div`
 
   @keyframes pulse {
     0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
+    50% { opacity: 0.6; }
   }
 `;
 
 const MetricsPill = styled.div`
-  background: var(--color-gray-100);
-  border: 1px solid var(--color-gray-200);
+  background: var(--bg-tertiary);
+  border: var(--border-width) solid var(--border-color);
   color: var(--text-secondary);
   padding: var(--space-sm) var(--space-md);
-  border-radius: var(--radius-xl);
+  border-radius: var(--radius-full);
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 600;
   display: flex;
   align-items: center;
   gap: var(--space-xs);

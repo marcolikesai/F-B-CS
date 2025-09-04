@@ -8,29 +8,27 @@ import LoadingSpinner from '../components/shared/LoadingSpinner';
 const DashboardContainer = styled.div`
   max-width: 1400px;
   margin: 0 auto;
-  padding: var(--space-xl);
+  padding: var(--space-2xl) var(--space-xl);
   min-height: 100vh;
+  background-color: var(--bg-secondary);
 
   @media (max-width: 768px) {
-    padding: var(--space-lg);
+    padding: var(--space-xl) var(--space-lg);
   }
 `;
 
 const PageHeader = styled.div`
-  margin-bottom: var(--space-2xl);
+  margin-bottom: var(--space-3xl);
   text-align: center;
-  position: relative;
 `;
 
 const PageTitle = styled.h1`
-  font-size: 3rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin: 0 0 var(--space-sm) 0;
-  letter-spacing: -0.02em;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--text-primary);
+  margin: 0 0 var(--space-lg) 0;
+  letter-spacing: -0.05em;
+  line-height: 1;
 
   @media (max-width: 768px) {
     font-size: 2.5rem;
@@ -38,76 +36,79 @@ const PageTitle = styled.h1`
 `;
 
 const PageSubtitle = styled.p`
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   color: var(--text-secondary);
-  margin: 0;
-  max-width: 600px;
   margin: 0 auto;
-  line-height: 1.6;
+  max-width: 600px;
+  line-height: 1.5;
+  font-weight: 400;
 `;
 
-const StatsOverview = styled.div`
+const MetricsGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--space-xl);
   margin-bottom: var(--space-3xl);
 `;
 
-const StatCard = styled.div`
+const MetricCard = styled.div`
   background: var(--bg-primary);
-  border-radius: var(--radius-xl);
-  padding: var(--space-xl);
-  box-shadow: var(--shadow-lg);
-  border: 1px solid var(--color-gray-200);
+  border: var(--border-width) solid var(--border-color);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-2xl);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s ease;
   position: relative;
   overflow: hidden;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  
+
+  &:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--border-color-dark);
+    transform: translateY(-2px);
+  }
+
   &::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    height: 4px;
-    background: ${props => props.gradient || 'linear-gradient(135deg, var(--color-primary), var(--color-secondary))'};
-  }
-
-  &:hover {
-    transform: translateY(-8px);
-    box-shadow: var(--shadow-xl);
+    height: 3px;
+    background: ${props => props.accentColor || 'var(--color-primary)'};
   }
 `;
 
-const StatValue = styled.div`
-  font-size: 2.75rem;
-  font-weight: 800;
+const MetricValue = styled.div`
+  font-size: 3rem;
+  font-weight: 900;
   color: var(--text-primary);
   margin-bottom: var(--space-sm);
   line-height: 1;
+  letter-spacing: -0.02em;
 `;
 
-const StatLabel = styled.div`
+const MetricLabel = styled.div`
   font-size: 0.875rem;
   color: var(--text-secondary);
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-xs);
 `;
 
-const StatIcon = styled.div`
+const MetricIcon = styled.div`
   position: absolute;
-  top: var(--space-lg);
-  right: var(--space-lg);
+  top: var(--space-xl);
+  right: var(--space-xl);
   width: 48px;
   height: 48px;
-  border-radius: var(--radius-lg);
-  background: ${props => props.background || 'var(--color-primary)'};
+  border-radius: var(--radius-xl);
+  background: ${props => props.background || 'var(--color-gray-100)'};
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  opacity: 0.1;
+  opacity: 0.8;
 `;
 
 const ChartsSection = styled.div`
@@ -121,43 +122,47 @@ const ChartsSection = styled.div`
   }
 `;
 
-const MainChart = styled.div`
+const ChartCard = styled.div`
   background: var(--bg-primary);
-  border-radius: var(--radius-xl);
-  padding: var(--space-xl);
-  box-shadow: var(--shadow-lg);
-  border: 1px solid var(--color-gray-200);
+  border: var(--border-width) solid var(--border-color);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-2xl);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s ease;
+
+  &:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--border-color-dark);
+  }
 `;
 
-const SideChart = styled.div`
-  background: var(--bg-primary);
-  border-radius: var(--radius-xl);
-  padding: var(--space-xl);
-  box-shadow: var(--shadow-lg);
-  border: 1px solid var(--color-gray-200);
+const ChartHeader = styled.div`
+  margin-bottom: var(--space-xl);
 `;
 
 const ChartTitle = styled.h3`
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 700;
   color: var(--text-primary);
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space-xs);
+  letter-spacing: -0.025em;
 `;
 
 const ChartSubtitle = styled.p`
   font-size: 0.875rem;
   color: var(--text-secondary);
-  margin-bottom: var(--space-xl);
+  margin: 0;
+  font-weight: 400;
 `;
 
 const ChartContainer = styled.div`
-  height: 350px;
+  height: 400px;
   width: 100%;
 `;
 
 const SecondaryChartsGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: var(--space-xl);
   margin-bottom: var(--space-3xl);
 
@@ -168,25 +173,27 @@ const SecondaryChartsGrid = styled.div`
 
 const InsightsSection = styled.div`
   background: var(--bg-primary);
-  border-radius: var(--radius-xl);
-  padding: var(--space-xl);
-  box-shadow: var(--shadow-lg);
-  border: 1px solid var(--color-gray-200);
+  border: var(--border-width) solid var(--border-color);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-2xl);
+  box-shadow: var(--shadow-sm);
+`;
+
+const InsightsHeader = styled.div`
+  margin-bottom: var(--space-xl);
 `;
 
 const InsightsTitle = styled.h3`
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text-primary);
-  margin-bottom: var(--space-lg);
-  display: flex;
-  align-items: center;
-  gap: var(--space-sm);
+  margin-bottom: var(--space-xs);
+  letter-spacing: -0.025em;
 `;
 
 const InsightsList = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: var(--space-lg);
 `;
 
@@ -195,26 +202,28 @@ const InsightItem = styled.div`
   align-items: flex-start;
   gap: var(--space-md);
   padding: var(--space-lg);
-  background: var(--color-gray-50);
-  border-radius: var(--radius-lg);
-  border-left: 4px solid ${props => props.color || 'var(--color-primary)'};
+  background: var(--bg-secondary);
+  border: var(--border-width) solid var(--border-color-light);
+  border-radius: var(--radius-xl);
   transition: all 0.2s ease;
 
   &:hover {
-    transform: translateX(4px);
-    background: var(--color-gray-100);
+    background: var(--bg-tertiary);
+    border-color: var(--border-color);
+    transform: translateY(-1px);
   }
 `;
 
 const InsightIcon = styled.div`
-  width: 32px;
-  height: 32px;
-  border-radius: var(--radius-md);
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-lg);
   background: ${props => props.background || 'var(--color-primary)'};
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+  font-size: 1.2rem;
   font-weight: 600;
   flex-shrink: 0;
 `;
@@ -224,10 +233,11 @@ const InsightText = styled.p`
   color: var(--text-primary);
   line-height: 1.5;
   font-weight: 500;
+  font-size: 0.875rem;
 `;
 
-// Chart colors
-const CHART_COLORS = ['#6366f1', '#06b6d4', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6'];
+// Professional light theme chart colors
+const CHART_COLORS = ['#1f2937', '#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6'];
 
 const Dashboard = () => {
   const [overview, setOverview] = useState(null);
@@ -313,31 +323,27 @@ const Dashboard = () => {
     {
       icon: '📊',
       text: `Average of ${overview?.key_metrics?.transactions_per_attendee || 0} transactions per attendee across all events`,
-      color: 'var(--color-primary)',
-      background: 'var(--color-primary)'
+      background: '#1f2937'
     },
     {
       icon: '💰',
       text: `Average revenue of $${overview?.key_metrics?.sales_per_attendee || 0} per attendee`,
-      color: 'var(--color-success)',
-      background: 'var(--color-success)'
+      background: '#10b981'
     },
     {
       icon: '🏒',
       text: `NHL games average ${eventTypeData.find(d => d.name === 'NHL')?.attendance || 0} attendees vs ${eventTypeData.find(d => d.name === 'NBA')?.attendance || 0} for NBA games`,
-      color: 'var(--color-secondary)',
-      background: 'var(--color-secondary)'
+      background: '#3b82f6'
     },
     {
       icon: '📅',
       text: `Weekend games typically see higher attendance and concession sales`,
-      color: 'var(--color-warning)',
-      background: 'var(--color-warning)'
+      background: '#f59e0b'
     }
   ];
 
   return (
-    <DashboardContainer className="fade-in">
+    <DashboardContainer className="animate-fade-in">
       <PageHeader>
         <PageTitle>Analytics Dashboard</PageTitle>
         <PageSubtitle>
@@ -347,42 +353,53 @@ const Dashboard = () => {
         </PageSubtitle>
       </PageHeader>
 
-      <StatsOverview className="stagger-children">
-        <StatCard gradient="linear-gradient(135deg, #6366f1, #4f46e5)">
-          <StatIcon background="rgba(99, 102, 241, 0.1)">👥</StatIcon>
-          <StatValue>{overview?.avg_attendance?.toLocaleString() || 0}</StatValue>
-          <StatLabel>Average Attendance</StatLabel>
-        </StatCard>
+      <MetricsGrid>
+        <MetricCard accentColor="#1f2937">
+          <MetricIcon background="var(--bg-tertiary)">👥</MetricIcon>
+          <MetricLabel>Average Attendance</MetricLabel>
+          <MetricValue>{overview?.avg_attendance?.toLocaleString() || 0}</MetricValue>
+        </MetricCard>
         
-        <StatCard gradient="linear-gradient(135deg, #06b6d4, #0891b2)">
-          <StatIcon background="rgba(6, 182, 212, 0.1)">🎯</StatIcon>
-          <StatValue>{overview?.avg_transactions?.toLocaleString() || 0}</StatValue>
-          <StatLabel>Average Transactions</StatLabel>
-        </StatCard>
+        <MetricCard accentColor="#3b82f6">
+          <MetricIcon background="var(--bg-tertiary)">🎯</MetricIcon>
+          <MetricLabel>Average Transactions</MetricLabel>
+          <MetricValue>{overview?.avg_transactions?.toLocaleString() || 0}</MetricValue>
+        </MetricCard>
         
-        <StatCard gradient="linear-gradient(135deg, #10b981, #059669)">
-          <StatIcon background="rgba(16, 185, 129, 0.1)">💰</StatIcon>
-          <StatValue>${overview?.avg_sales?.toLocaleString() || 0}</StatValue>
-          <StatLabel>Average Sales per Event</StatLabel>
-        </StatCard>
+        <MetricCard accentColor="#10b981">
+          <MetricIcon background="var(--bg-tertiary)">💰</MetricIcon>
+          <MetricLabel>Average Sales per Event</MetricLabel>
+          <MetricValue>${overview?.avg_sales?.toLocaleString() || 0}</MetricValue>
+        </MetricCard>
         
-        <StatCard gradient="linear-gradient(135deg, #f59e0b, #d97706)">
-          <StatIcon background="rgba(245, 158, 11, 0.1)">📈</StatIcon>
-          <StatValue>${overview?.key_metrics?.sales_per_transaction || 0}</StatValue>
-          <StatLabel>Sales per Transaction</StatLabel>
-        </StatCard>
-      </StatsOverview>
+        <MetricCard accentColor="#f59e0b">
+          <MetricIcon background="var(--bg-tertiary)">📈</MetricIcon>
+          <MetricLabel>Sales per Transaction</MetricLabel>
+          <MetricValue>${overview?.key_metrics?.sales_per_transaction || 0}</MetricValue>
+        </MetricCard>
+      </MetricsGrid>
 
       <ChartsSection>
-        <MainChart>
-          <ChartTitle>Performance by Event Type</ChartTitle>
-          <ChartSubtitle>Comparing attendance and transaction metrics</ChartSubtitle>
+        <ChartCard>
+          <ChartHeader>
+            <ChartTitle>Performance by Event Type</ChartTitle>
+            <ChartSubtitle>Comparing attendance and transaction metrics</ChartSubtitle>
+          </ChartHeader>
           <ChartContainer>
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={eventTypeData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="var(--color-gray-200)" />
-                <XAxis dataKey="name" stroke="var(--text-secondary)" />
-                <YAxis stroke="var(--text-secondary)" />
+                <XAxis 
+                  dataKey="name" 
+                  stroke="var(--text-secondary)" 
+                  fontSize={12}
+                  fontWeight={500}
+                />
+                <YAxis 
+                  stroke="var(--text-secondary)" 
+                  fontSize={12}
+                  fontWeight={500}
+                />
                 <Tooltip 
                   formatter={(value, name) => [
                     name === 'sales' ? `$${value.toLocaleString()}` : value.toLocaleString(),
@@ -390,21 +407,25 @@ const Dashboard = () => {
                   ]}
                   contentStyle={{
                     backgroundColor: 'var(--bg-primary)',
-                    border: '1px solid var(--color-gray-200)',
-                    borderRadius: 'var(--radius-md)',
-                    boxShadow: 'var(--shadow-lg)'
+                    border: '1px solid var(--border-color)',
+                    borderRadius: 'var(--radius-lg)',
+                    boxShadow: 'var(--shadow-lg)',
+                    fontSize: '14px',
+                    fontWeight: '500'
                   }}
                 />
-                <Bar dataKey="attendance" fill="#6366f1" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="attendance" fill="#1f2937" radius={[4, 4, 0, 0]} />
                 <Bar dataKey="transactions" fill="#10b981" radius={[4, 4, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </ChartContainer>
-        </MainChart>
+        </ChartCard>
 
-        <SideChart>
-          <ChartTitle>Event Distribution</ChartTitle>
-          <ChartSubtitle>Attendance by event type</ChartSubtitle>
+        <ChartCard>
+          <ChartHeader>
+            <ChartTitle>Event Distribution</ChartTitle>
+            <ChartSubtitle>Attendance by event type</ChartSubtitle>
+          </ChartHeader>
           <ChartContainer>
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
@@ -412,9 +433,9 @@ const Dashboard = () => {
                   data={pieData}
                   cx="50%"
                   cy="50%"
-                  innerRadius={60}
-                  outerRadius={120}
-                  paddingAngle={5}
+                  innerRadius={80}
+                  outerRadius={140}
+                  paddingAngle={2}
                   dataKey="value"
                 >
                   {pieData.map((entry, index) => (
@@ -425,58 +446,84 @@ const Dashboard = () => {
                   formatter={(value) => [value.toLocaleString(), 'Attendance']}
                   contentStyle={{
                     backgroundColor: 'var(--bg-primary)',
-                    border: '1px solid var(--color-gray-200)',
-                    borderRadius: 'var(--radius-md)',
-                    boxShadow: 'var(--shadow-lg)'
+                    border: '1px solid var(--border-color)',
+                    borderRadius: 'var(--radius-lg)',
+                    boxShadow: 'var(--shadow-lg)',
+                    fontSize: '14px',
+                    fontWeight: '500'
                   }}
                 />
               </PieChart>
             </ResponsiveContainer>
           </ChartContainer>
-        </SideChart>
+        </ChartCard>
       </ChartsSection>
 
       <SecondaryChartsGrid>
-        <MainChart>
-          <ChartTitle>Weekly Performance Patterns</ChartTitle>
-          <ChartSubtitle>Average attendance by day of week</ChartSubtitle>
+        <ChartCard>
+          <ChartHeader>
+            <ChartTitle>Weekly Performance Patterns</ChartTitle>
+            <ChartSubtitle>Average attendance by day of week</ChartSubtitle>
+          </ChartHeader>
           <ChartContainer>
             <ResponsiveContainer width="100%" height="100%">
               <LineChart data={dayOfWeekData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="var(--color-gray-200)" />
-                <XAxis dataKey="name" stroke="var(--text-secondary)" />
-                <YAxis stroke="var(--text-secondary)" />
+                <XAxis 
+                  dataKey="name" 
+                  stroke="var(--text-secondary)" 
+                  fontSize={12}
+                  fontWeight={500}
+                />
+                <YAxis 
+                  stroke="var(--text-secondary)" 
+                  fontSize={12}
+                  fontWeight={500}
+                />
                 <Tooltip 
                   formatter={(value) => [value.toLocaleString(), 'Attendance']}
                   contentStyle={{
                     backgroundColor: 'var(--bg-primary)',
-                    border: '1px solid var(--color-gray-200)',
-                    borderRadius: 'var(--radius-md)',
-                    boxShadow: 'var(--shadow-lg)'
+                    border: '1px solid var(--border-color)',
+                    borderRadius: 'var(--radius-lg)',
+                    boxShadow: 'var(--shadow-lg)',
+                    fontSize: '14px',
+                    fontWeight: '500'
                   }}
                 />
                 <Line 
                   type="monotone" 
                   dataKey="attendance" 
-                  stroke="#6366f1" 
+                  stroke="#1f2937" 
                   strokeWidth={3}
-                  dot={{ fill: '#6366f1', strokeWidth: 2, r: 6 }}
-                  activeDot={{ r: 8, fill: '#4f46e5' }}
+                  dot={{ fill: '#1f2937', strokeWidth: 0, r: 6 }}
+                  activeDot={{ r: 8, fill: '#1f2937' }}
                 />
               </LineChart>
             </ResponsiveContainer>
           </ChartContainer>
-        </MainChart>
+        </ChartCard>
 
-        <MainChart>
-          <ChartTitle>Recent Performance Trends</ChartTitle>
-          <ChartSubtitle>Last 10 events performance</ChartSubtitle>
+        <ChartCard>
+          <ChartHeader>
+            <ChartTitle>Recent Performance Trends</ChartTitle>
+            <ChartSubtitle>Last 10 events performance</ChartSubtitle>
+          </ChartHeader>
           <ChartContainer>
             <ResponsiveContainer width="100%" height="100%">
               <LineChart data={recentTrends} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="var(--color-gray-200)" />
-                <XAxis dataKey="date" stroke="var(--text-secondary)" />
-                <YAxis stroke="var(--text-secondary)" />
+                <XAxis 
+                  dataKey="date" 
+                  stroke="var(--text-secondary)" 
+                  fontSize={12}
+                  fontWeight={500}
+                />
+                <YAxis 
+                  stroke="var(--text-secondary)" 
+                  fontSize={12}
+                  fontWeight={500}
+                />
                 <Tooltip 
                   formatter={(value, name) => [
                     name === 'sales' ? `$${value.toLocaleString()}` : value.toLocaleString(),
@@ -484,38 +531,40 @@ const Dashboard = () => {
                   ]}
                   contentStyle={{
                     backgroundColor: 'var(--bg-primary)',
-                    border: '1px solid var(--color-gray-200)',
-                    borderRadius: 'var(--radius-md)',
-                    boxShadow: 'var(--shadow-lg)'
+                    border: '1px solid var(--border-color)',
+                    borderRadius: 'var(--radius-lg)',
+                    boxShadow: 'var(--shadow-lg)',
+                    fontSize: '14px',
+                    fontWeight: '500'
                   }}
                 />
                 <Line 
                   type="monotone" 
                   dataKey="attendance" 
-                  stroke="#6366f1" 
+                  stroke="#1f2937" 
                   strokeWidth={2}
-                  dot={{ fill: '#6366f1', strokeWidth: 2, r: 4 }}
+                  dot={{ fill: '#1f2937', strokeWidth: 0, r: 4 }}
                 />
                 <Line 
                   type="monotone" 
                   dataKey="transactions" 
                   stroke="#10b981" 
                   strokeWidth={2}
-                  dot={{ fill: '#10b981', strokeWidth: 2, r: 4 }}
+                  dot={{ fill: '#10b981', strokeWidth: 0, r: 4 }}
                 />
               </LineChart>
             </ResponsiveContainer>
           </ChartContainer>
-        </MainChart>
+        </ChartCard>
       </SecondaryChartsGrid>
 
       <InsightsSection>
-        <InsightsTitle>
-          💡 Key Insights
-        </InsightsTitle>
+        <InsightsHeader>
+          <InsightsTitle>Key Insights</InsightsTitle>
+        </InsightsHeader>
         <InsightsList>
           {insights.map((insight, index) => (
-            <InsightItem key={index} color={insight.color}>
+            <InsightItem key={index}>
               <InsightIcon background={insight.background}>
                 {insight.icon}
               </InsightIcon>

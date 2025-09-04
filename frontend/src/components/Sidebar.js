@@ -5,9 +5,9 @@ import styled from 'styled-components';
 const SidebarContainer = styled.nav`
   width: 300px;
   background: var(--bg-primary);
-  border-right: 1px solid var(--color-gray-200);
-  padding: var(--space-xl) 0;
-  box-shadow: var(--shadow-sm);
+  border-right: var(--border-width) solid var(--border-color);
+  padding: var(--space-2xl) 0;
+  box-shadow: var(--shadow-xs);
   height: 100vh;
   overflow-y: auto;
   position: sticky;
@@ -19,9 +19,9 @@ const SidebarContainer = styled.nav`
 `;
 
 const Logo = styled.div`
-  padding: 0 var(--space-xl) var(--space-xl) var(--space-xl);
-  border-bottom: 1px solid var(--color-gray-100);
-  margin-bottom: var(--space-xl);
+  padding: 0 var(--space-2xl) var(--space-2xl) var(--space-2xl);
+  border-bottom: var(--border-width) solid var(--border-color-light);
+  margin-bottom: var(--space-2xl);
 `;
 
 const LogoSection = styled.div`
@@ -34,24 +34,22 @@ const LogoSection = styled.div`
 const LogoIcon = styled.div`
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
-  border-radius: var(--radius-md);
+  background: var(--color-primary);
+  border-radius: var(--radius-xl);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
   color: white;
-  font-weight: 700;
+  font-weight: 800;
 `;
 
 const LogoText = styled.h2`
   font-size: 1.375rem;
-  font-weight: 700;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-weight: 800;
+  color: var(--text-primary);
   margin: 0;
+  letter-spacing: -0.025em;
 `;
 
 const LogoSubtext = styled.p`
@@ -61,7 +59,7 @@ const LogoSubtext = styled.p`
   padding-left: 52px;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.05em;
 `;
 
 const MenuSection = styled.div`
@@ -70,11 +68,11 @@ const MenuSection = styled.div`
 
 const SectionTitle = styled.h3`
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text-tertiary);
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin: 0 0 var(--space-md) var(--space-xl);
+  letter-spacing: 0.05em;
+  margin: 0 0 var(--space-md) var(--space-2xl);
   display: flex;
   align-items: center;
   gap: var(--space-sm);
@@ -83,41 +81,40 @@ const SectionTitle = styled.h3`
     content: '';
     flex: 1;
     height: 1px;
-    background: var(--color-gray-200);
+    background: var(--border-color-light);
   }
 `;
 
 const MenuItem = styled(Link)`
   display: flex;
   align-items: center;
-  padding: var(--space-md) var(--space-xl);
+  padding: var(--space-md) var(--space-2xl);
   color: ${props => props.$isActive ? 'var(--color-primary)' : 'var(--text-secondary)'};
-  background: ${props => props.$isActive ? 'var(--color-primary-light)' : 'transparent'};
+  background: ${props => props.$isActive ? 'var(--bg-tertiary)' : 'transparent'};
   text-decoration: none;
   font-weight: ${props => props.$isActive ? '600' : '500'};
-  border-right: ${props => props.$isActive ? '3px solid var(--color-primary)' : '3px solid transparent'};
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.15s ease;
   position: relative;
   margin: 0 var(--space-sm);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
 
   &::before {
     content: '';
     position: absolute;
-    left: 0;
+    left: -${props => props.$isActive ? 'var(--space-sm)' : '0'};
     top: 0;
     bottom: 0;
     width: 3px;
     background: var(--color-primary);
     border-radius: 0 2px 2px 0;
     opacity: ${props => props.$isActive ? '1' : '0'};
-    transition: opacity 0.2s ease;
+    transition: all 0.15s ease;
   }
 
   &:hover {
-    background: var(--color-gray-50);
+    background: var(--bg-tertiary);
     color: var(--color-primary);
-    transform: translateX(4px);
+    transform: translateX(2px);
   }
 
   &:hover::before {
@@ -134,13 +131,15 @@ const MenuIcon = styled.div`
   align-items: center;
   justify-content: center;
   border-radius: var(--radius-sm);
-  background: ${props => props.$isActive ? 'rgba(99, 102, 241, 0.1)' : 'transparent'};
-  transition: background 0.2s ease;
+  background: ${props => props.$isActive ? 'var(--color-primary)' : 'transparent'};
+  color: ${props => props.$isActive ? 'white' : 'inherit'};
+  transition: all 0.15s ease;
 `;
 
 const MenuLabel = styled.span`
   font-size: 0.875rem;
   line-height: 1.4;
+  font-weight: inherit;
 `;
 
 const menuItems = [

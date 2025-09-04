@@ -87,11 +87,6 @@ const StandName = styled.div`
   margin-bottom: 2px;
 `;
 
-const StandType = styled.div`
-  font-size: 0.75rem;
-  color: #64748b;
-`;
-
 const ChartContainer = styled.div`
   height: 400px;
   width: 100%;

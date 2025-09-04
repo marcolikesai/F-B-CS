@@ -18,21 +18,8 @@ const PageTitle = styled.h1`
   margin: 0 0 8px 0;
 `;
 
-const PageSubtitle = styled.p`
-  font-size: 1rem;
-  color: #64748b;
-  margin: 0;
-`;
-
 const Section = styled.div`
   margin-bottom: 24px;
-`;
-
-const SectionTitle = styled.h2`
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #111827;
-  margin: 0 0 8px 0;
 `;
 
 const Paragraph = styled.p`
@@ -138,7 +125,7 @@ const Methods = () => {
 python backend/cache_results.py
 
 # Serve cached API
-ython backend/app_fast.py  # bound to http://localhost:5001
+python backend/app_fast.py  # bound to http://localhost:5001
 
 # Frontend dev server
 cd frontend && npm start  # proxy configured for port 5001`}</CodeBlock>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import { PieChart, Pie, Cell, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 import { apiService } from '../services/api';
 import Card from '../components/shared/Card';
 import LoadingSpinner from '../components/shared/LoadingSpinner';
@@ -148,8 +148,6 @@ const TableCell = styled.td`
   color: #64748b;
 `;
 
-const COLORS = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6'];
-
 const Predictions = () => {
   const [predictions, setPredictions] = useState(null);
   const [overview, setOverview] = useState(null);
@@ -234,11 +232,9 @@ const Predictions = () => {
     }
   ];
 
-  const nbaAvgTrans = eventPerformance?.event_type_performance?.['NBA Regular Season']?.avg_transactions || null;
   const nbaTransPerAtt = eventPerformance?.event_type_performance?.['NBA Regular Season']?.avg_transactions && eventPerformance?.event_type_performance?.['NBA Regular Season']?.avg_attendance
     ? (eventPerformance.event_type_performance['NBA Regular Season'].avg_transactions / eventPerformance.event_type_performance['NBA Regular Season'].avg_attendance)
     : null;
-  const sundayAvgTrans = eventPerformance?.day_of_week_performance?.Sunday?.avg_transactions || null;
   const sundayTransPerAtt = eventPerformance?.day_of_week_performance?.Sunday?.avg_transactions && eventPerformance?.day_of_week_performance?.Sunday?.avg_attendance
     ? (eventPerformance.day_of_week_performance.Sunday.avg_transactions / eventPerformance.day_of_week_performance.Sunday.avg_attendance)
     : null;

@@ -2,44 +2,73 @@ import React from 'react';
 import styled from 'styled-components';
 
 const CardContainer = styled.div`
-  background: white;
-  border-radius: 12px;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background: var(--bg-primary);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--color-gray-200);
+  box-shadow: var(--shadow-md);
   overflow: hidden;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--color-primary-light), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
 
   &:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--color-primary-light);
+  }
+
+  &:hover::before {
+    opacity: 1;
   }
 `;
 
 const CardHeader = styled.div`
-  padding: 20px 24px 16px 24px;
-  border-bottom: 1px solid #f1f5f9;
+  padding: var(--space-xl) var(--space-xl) var(--space-lg) var(--space-xl);
+  border-bottom: 1px solid var(--color-gray-100);
+  background: linear-gradient(180deg, var(--bg-primary) 0%, var(--color-gray-50) 100%);
 `;
 
 const CardTitle = styled.h3`
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: 600;
-  color: #1e293b;
-  margin: 0 0 4px 0;
+  color: var(--text-primary);
+  margin: 0 0 var(--space-xs) 0;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
 `;
 
 const CardSubtitle = styled.p`
   font-size: 0.875rem;
-  color: #64748b;
+  color: var(--text-secondary);
   margin: 0;
+  line-height: 1.4;
 `;
 
 const CardBody = styled.div`
-  padding: 24px;
+  padding: var(--space-xl);
+  position: relative;
 `;
 
 const CardFooter = styled.div`
-  padding: 16px 24px;
-  background: #f8fafc;
-  border-top: 1px solid #f1f5f9;
+  padding: var(--space-lg) var(--space-xl);
+  background: var(--color-gray-50);
+  border-top: 1px solid var(--color-gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
 `;
 
 const Card = ({ 
@@ -48,13 +77,19 @@ const Card = ({
   children, 
   footer, 
   className,
+  icon,
   ...props 
 }) => {
   return (
-    <CardContainer className={className} {...props}>
+    <CardContainer className={`card-modern ${className || ''}`} {...props}>
       {(title || subtitle) && (
         <CardHeader>
-          {title && <CardTitle>{title}</CardTitle>}
+          {title && (
+            <CardTitle>
+              {icon && <span style={{ fontSize: '1.2em', opacity: 0.8 }}>{icon}</span>}
+              {title}
+            </CardTitle>
+          )}
           {subtitle && <CardSubtitle>{subtitle}</CardSubtitle>}
         </CardHeader>
       )}

@@ -36,7 +36,7 @@ const getDataWithFallback = async (endpoint, fallbackData) => {
 
 const apiService = {
   // Analysis endpoints
-  getAnalysisOverview: () => getDataWithFallback('/api/analysis/overview', mockData.analysis_overview),
+  getAnalysisOverview: () => getDataWithFallback('/api/analysis/overview', mockData.overview),
   
   getEventPerformance: () => getDataWithFallback('/api/analysis/event-performance', mockData.event_performance),
   

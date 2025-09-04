@@ -8,106 +8,51 @@ const API_BASE_URL = process.env.REACT_APP_API_BASE_URL
 
 const api = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 10000,
+  timeout: 5000, // Reduced timeout for faster fallback
   headers: {
     'Content-Type': 'application/json',
   },
 });
 
-// Fallback to static data if backend is not available
-let useStaticData = false;
+// Use static data by default in production for faster loading
+const useStaticData = process.env.NODE_ENV === 'production';
 
-const checkBackendAvailable = async () => {
-  try {
-    await api.get('/', { timeout: 2000 });
-    return true;
-  } catch (error) {
-    console.log('Backend not available, using static data');
-    useStaticData = true;
-    return false;
-  }
-};
-
-// Initialize backend check
-checkBackendAvailable();
-
-// Helper to get data with fallback
-const getDataWithFallback = async (endpoint, staticDataPath) => {
+// Helper to get data with instant static fallback in production
+const getDataWithFallback = async (endpoint, fallbackData) => {
   if (useStaticData) {
-    const data = staticDataPath.split('.').reduce((obj, key) => obj?.[key], mockData);
-    return { data };
+    // In production, use static data immediately for fast loading
+    return { data: fallbackData };
   }
   
   try {
-    return await api.get(endpoint);
+    // In development, try backend first
+    const response = await api.get(endpoint);
+    return response;
   } catch (error) {
-    console.log(`API error for ${endpoint}, falling back to static data`);
-    useStaticData = true;
-    const data = staticDataPath.split('.').reduce((obj, key) => obj?.[key], mockData);
-    return { data };
+    console.log(`Backend not available for ${endpoint}, using static data`);
+    return { data: fallbackData };
   }
 };
-
-// Request interceptor for logging
-api.interceptors.request.use(
-  (config) => {
-    if (!useStaticData) {
-      console.log(`Making ${config.method?.toUpperCase()} request to ${config.url}`);
-    }
-    return config;
-  },
-  (error) => {
-    console.error('Request error:', error);
-    return Promise.reject(error);
-  }
-);
-
-// Response interceptor for error handling
-api.interceptors.response.use(
-  (response) => {
-    return response;
-  },
-  (error) => {
-    console.error('API Error:', error.message);
-    if (error.code === 'ECONNREFUSED' || error.code === 'NETWORK_ERROR') {
-      useStaticData = true;
-    }
-    return Promise.reject(error);
-  }
-);
 
 const apiService = {
   // Analysis endpoints
-  getAnalysisOverview: () => getDataWithFallback('/api/analysis/overview', 'overview'),
+  getAnalysisOverview: () => getDataWithFallback('/api/analysis/overview', mockData.analysis_overview),
   
-  getEventPerformance: () => getDataWithFallback('/api/analysis/event-performance', 'event_performance'),
+  getEventPerformance: () => getDataWithFallback('/api/analysis/event-performance', mockData.event_performance),
   
-  getStandPerformance: () => getDataWithFallback('/api/analysis/stand-performance', 'stand_performance'),
+  getStandPerformance: () => getDataWithFallback('/api/analysis/stand-performance', mockData.stand_performance),
   
   // Predictions
-  getMarch5Predictions: () => getDataWithFallback('/api/predictions/march5', 'march5_predictions'),
+  getMarch5Predictions: () => getDataWithFallback('/api/predictions/march5', mockData.march5_predictions),
   
   // Staffing
-  getStaffingRecommendations: () => getDataWithFallback('/api/staffing/recommendations', 'staffing_recommendations'),
-  
-  // Risk assessment
-  getRiskAssessment: () => getDataWithFallback('/api/risk-assessment', 'risk_assessment'),
+  getStaffingRecommendations: () => getDataWithFallback('/api/staffing/recommendations', mockData.staffing_recommendations),
   
   // Historical data
-  getHistoricalData: () => getDataWithFallback('/api/historical-data', 'historical_data'),
+  getHistoricalData: () => getDataWithFallback('/api/historical-data', mockData.historical_data),
   
-  // Health check
-  healthCheck: async () => {
-    if (useStaticData) {
-      return { data: { status: 'ok', message: 'Using static data', mode: 'static' } };
-    }
-    try {
-      return await api.get('/');
-    } catch (error) {
-      useStaticData = true;
-      return { data: { status: 'ok', message: 'Using static data', mode: 'static' } };
-    }
-  }
+  // Risk assessment
+  getRiskAssessment: () => getDataWithFallback('/api/risk-assessment', mockData.risk_assessment),
 };
 
 export default apiService;

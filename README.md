@@ -2,7 +2,7 @@
 
 A comprehensive data analytics solution for Silver Arena's demand planning and concession analytics. This application provides predictive insights, staffing recommendations, and risk assessments for NBA and NHL games.
 
-## 📋 Overview
+##  Overview
 
 Silver Arena Analytics is a full-stack web application that analyzes historical event data to:
 - Predict attendance and concession demand for upcoming games
@@ -92,7 +92,7 @@ npm start
 - **Predicted Sales**: ~$129,494
 - **Recommended POS Terminals**: 74
 
-## 🎯 Application Pages
+## Application Pages
 
 ### 1. Dashboard (`/`)
 - Overview of historical performance
@@ -123,7 +123,7 @@ npm start
 - Operational risks and opportunities
 - Mitigation strategies
 
-## 🔧 API Endpoints
+##  API Endpoints
 
 ### Analysis Endpoints
 - `GET /api/analysis/overview` - High-level metrics
@@ -159,7 +159,7 @@ silver-arena-analytics/
 └── README.md               # This file
 ```
 
-## 🎨 Design System
+## Design System
 
 ### Color Palette
 - **Primary Blue**: #3b82f6
@@ -215,7 +215,7 @@ silver-arena-analytics/
 - Have technical support available
 - Implement mobile payment backups
 
-## 🛠️ Development
+## Development
 
 ### Adding New Features
 1. Backend: Add endpoints to `backend/app.py`

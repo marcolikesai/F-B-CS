@@ -12,14 +12,14 @@ Silver Arena Analytics is a full-stack web application that analyzes historical 
 
 ### Key Features
 
-- **📊 Interactive Dashboard**: Real-time analytics with beautiful charts and visualizations
-- **🎯 March 5th Predictions**: Specific forecasting for the Oklahoma City Thunder game
-- **🏪 Stand Performance Analysis**: Detailed breakdown of concession stand efficiency
-- **👥 Staffing Recommendations**: Optimal POS terminal and cashier allocation
-- **⚠️ Risk Assessment**: Comprehensive risk analysis with mitigation strategies
-- **📱 Responsive Design**: Modern, mobile-friendly interface
+- ** Interactive Dashboard**: Real-time analytics with beautiful charts and visualizations
+- ** March 5th Predictions**: Specific forecasting for the Oklahoma City Thunder game
+- ** Stand Performance Analysis**: Detailed breakdown of concession stand efficiency
+- ** Staffing Recommendations**: Optimal POS terminal and cashier allocation
+- ** Risk Assessment**: Comprehensive risk analysis with mitigation strategies
+- ** Responsive Design**: Modern, mobile-friendly interface
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Backend (Flask/Python)
 - **Data Processing**: Pandas, NumPy for data manipulation
@@ -37,7 +37,7 @@ Silver Arena Analytics is a full-stack web application that analyzes historical 
 - Excel file with historical event data (2021-2023)
 - Event characteristics, POS data, and stand performance metrics
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8+ with pip
@@ -196,7 +196,7 @@ silver-arena-analytics/
 2. **GC - Grill Stand**: High volume and efficiency
 3. **Hawker Vending Room**: Excellent efficiency (585 trans per stand)
 
-## 🔮 March 5th Recommendations
+## March 5th Recommendations
 
 ### Staffing Priorities
 1. **High Priority**: GC - Specialty (18 POS), GC - Grill Stand (14 POS)
@@ -243,7 +243,7 @@ npm run build
 # The built files will be in frontend/build/
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -251,16 +251,14 @@ npm run build
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Silver Arena Management Team for providing the requirements
 - Historical data spanning 2021-2023 for comprehensive analysis
 - Modern web technologies enabling responsive, interactive dashboards
 
 ---
-
-**Built with ❤️ for Silver Arena Analytics** 
